@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:YuGothic;
+	font-size: 16px;
+	background: #F9F9F4;
+}
+
+#wrapper{
+	width: 1160px;
+	margin: 0 auto;
+}
+
+#wrapper #innerWrapper #ctArea{
+	width: 700px;
+	margin: 50px auto 0;
+}
+
+#wrapper #innerWrapper #ctArea #ctAbout .aboutBnr{
+	width: 100%;
+}
+
+#wrapper #innerWrapper #ctArea #ctAbout .aboutBnr img{
+	width: 	100%;
+}
+
+#wrapper #innerWrapper #ctArea #ctAbout .sessionConsept .sessionTitle,
+#wrapper #innerWrapper #ctArea #ctAbout .sessionStaff .sessionTitle,
+#wrapper #innerWrapper #ctArea #ctAbout .sessionCompany .sessionTitle
+{
+	font-family: Helvetica Neue;
+	font-size: 16px;
+	color: #707070;
+	position: relative;
+	height: 32px;
+	margin-top: 34px;
+}
+
+#wrapper #innerWrapper #ctArea #ctAbout .sessionConsept .sessionTitle::after,
+#wrapper #innerWrapper #ctArea #ctAbout .sessionStaff .sessionTitle::after,
+#wrapper #innerWrapper #ctArea #ctAbout .sessionCompany .sessionTitle::after{
+	content: "";
+	width: 40px;
+	height: 1px;
+	/*border: 1px solid #000;*/
+	background: #000;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.innerContent{
+	margin: 47px 0 78px;
+}
+
+.innerContent h2{
+	font-size: 20px;
+	margin-bottom: 46px;
+}
+
+.innerContent .staffRow{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.innerContent .staffRow .leftSide img{
+	width: 120px;
+	height: auto;
+	padding: 19px 23px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.innerContent .staffRow .rightSide{
+	padding-left: 60px;
+}
+
+.innerContent .staffRow .rightSide,
+.innerContent .staffRow	.rightSide{
+	align-self: center;
+}
+
+.staffName{
+	margin-bottom: 20px !important;
+}
+
+.innerContent .aboutCompany dl{
+	display: flex;
+	padding-bottom: 25px;
+}
+
+.innerContent .aboutCompany dl dt{
+	width: 137px;
+	font-weight: 900;
+}
+
+.innerContent .aboutCompany dl dd{
+	margin-left: 25px;
+}
